@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>
+                  Pokemon games rus site
+            </title>
+
+            <link rel="stylesheet" href="style.css">
+            <link rel="apple-touch-icon" sizes="180x180" href="img/icon/game_rus.png" alt="Pokemon game rus site">
+            <link rel="icon" type="image/x-icon" sizes="32x32" href="img/icon/game_rus.png" alt="Pokemon game rus site">
+            <link rel="icon" type="image/x-icon" sizes="16x16" href="img/icon/game_rus.png" alt="Pokemon game rus site">
+            
+    </head>
+    <body>
+
+        <section_1>
+            <div class="menu_s" style="display: flex;justify-content: left;">
+                <button style="background-color: transparent;border: none;">
+                    <img src="img/data/tex.png">
+                </button>
+            </div>
+            <div class="priv">
+                <h1>
+                    <div>
+                Pokemon game rus site
+                    </div>
+                </h1>
+            </div>
+            
+        </section_1>
+       
+       
+        
+        <section_2>
+            <div class="menu">
+                
+                <div class="games">
+                    <button class ="button_games" onclick="(document.getElementById('blog_content').style.display='none'),(document.getElementById('info_content').style.display='none'),(document.getElementById('game_content').style.display='inline-flex')">
+                    <p>
+                        Игры
+                    </p>
+                    </button>
+                </div>
+
+                <div class="blog">
+                    <button class="button_blog" onclick="(document.getElementById('game_content').style.display='none'),(document.getElementById('info_content').style.display='none'),(document.getElementById('blog_content').style.display='inline-flex')">
+                    <p>
+                        Блог
+                    </p>
+                    </button>
+                </div>
+                
+                <div class="info">
+                    <button class="button_info" onclick="(document.getElementById('blog_content').style.display='none'),(document.getElementById('game_content').style.display='none'),(document.getElementById('info_content').style.display='inline-flex')">
+                    <p>
+                        Информация
+                    </p>
+                    </button>
+                </div>
+            </div>
+        </section_2>
+
+        <section_3>
+            <div class="content">
+                <div id="game_content" class="content_1">
+                    <div class="game_s">
+                        <a href="pages/page-all-game.html" style="text-decoration: none;color: #000000;">
+                        <button class="all_games_button" >
+                            Все игры покемон
+                        </button>
+                        </a>
+                            <div class="game_list">
+                            <div class="pokemon_1">
+                                <img src="img/pokemon_game/pokemon_1.png" style="opacity: none;" alt="Pokemon Leaf Green">
+                                Pokemon Leaf Green
+                            </div>
+                            <div class="pokemon_2">
+                                <img src="img/pokemon_game/pokemon_2.png" alt="Pokemon Black 2">
+                                Pokemon Black 2
+                            </div>
+                            </div>
+                    </div>
+                    <div class="emulator">
+                        <a href="pages/page-all-emulater.html" style="text-decoration: none;color: #000000;">
+                        <button class="all_emulater_button">
+                                Все эмуляторы 
+                            </button>
+                            </a>
+                            <div class="emulater_list">
+                                <div class="emulater_1">
+                                    <img src="img/emulater/drastick.png" style="opacity: none;" alt="Drastick emulater">
+                                    Drastick emulater
+                                </div>
+                                <div class="emulater_2">
+                                    <img src="img/emulater/gba.png" alt="Gba emulater">
+                                    Gba emulater
+                                </div>
+                                </div>
+
+                    </div>
+                    <div class="russification">
+                        <a href="pages/page-all-rusificator.html" style="text-decoration: none;color: #000000;">
+                        <button class="all_russification_button">
+                                Все руссификаторы 
+                            </button>
+                            </a>
+                            <div class="russification_1">
+                                <img src="img/russificachion/russificachion_1.png" style="opacity: none;" alt="Pokemon Legend Arceus Russifier">
+                                Pokemon Legend Arceus Russifier
+                            </div>
+                            <div class="russification_2">
+                                <img src="img/russificachion/russificachion_2.png" alt="Pokemon Alpha Sapphire Russifier">
+                                Pokemon Alpha Sapphire Russifier
+                            </div>
+                    </div>
+                </div>
+                <div id="blog_content" class="content_2" style="display: none; font-size: 30;">
+                    К сожелению данное меню находится в разработке
+                </div>
+                <div id="info_content" class="content_3" style="display: none; font-size: 40;">
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </section_3>
+        
+        
+        <section_4>
+        
+        </section_4>
+    </body>
+</html>
