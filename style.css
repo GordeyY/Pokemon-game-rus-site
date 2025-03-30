@@ -213,6 +213,7 @@ section_3
 
 .pokemon_1 
 {
+
     border: 6px solid #7FFF00;
     border-radius: 1em;
 }
@@ -222,6 +223,7 @@ section_3
 }
 .pokemon_2 
 {
+    background-color: #E6E6FA;
     border: 6px solid #7FFF00;
     border-radius: 1em;
 }
