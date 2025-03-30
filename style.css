@@ -1,6 +1,8 @@
 body
 {
-    background-image: url('img/backgroung/background.png')
+    background-image: url('img/backgroung/background.png');
+    width: 1500px;
+    
 }
 
 .priv 
